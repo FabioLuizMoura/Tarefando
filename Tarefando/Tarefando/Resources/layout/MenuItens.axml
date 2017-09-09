@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#fff"
+    android:minWidth="220dp"
+    android:padding="20dp">
+    <Button
+        android:text="Editar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnItensEditar"
+        android:background="@android:drawable/btn_default_small"
+        android:textColor="#000"
+        android:textSize="20dp" />
+    <Button
+        android:text="Concluir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnItensConclui"
+        android:textColor="#000"
+        android:background="@android:drawable/btn_default_small"
+        android:textSize="20dp" />
+    <Button
+        android:text="Apagar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnItensApagar"
+        android:textColor="#000"
+        android:background="@android:drawable/btn_default_small"
+        android:textSize="20dp" />
+</LinearLayout>

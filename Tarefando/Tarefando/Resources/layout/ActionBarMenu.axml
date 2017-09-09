@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:background="#3ABCA7"
+    android:weightSum="100"
+    android:layout_height="50dp">
+    <LinearLayout
+        android:layout_weight="85"
+        android:layout_width="0dp"
+        android:id="@+id/llLayoutMenu"
+        android:orientation="horizontal"
+        android:layout_height="match_parent">
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:id="@+id/btnMenuVoltar"
+            android:background="@drawable/ceta"
+            android:layout_gravity="center" />
+        <TextView
+            android:text="Texto de exemplo"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/txtMenuTexto"
+            android:layout_gravity="center"
+            android:gravity="center" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="15"
+        android:layout_width="0dp"
+        android:orientation="horizontal"
+        android:layout_height="match_parent"
+        android:layout_gravity="center">
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:id="@+id/btnMenuCumpridas"
+            android:background="@drawable/checked"
+            android:layout_gravity="center"
+            android:layout_margin="5dp" />
+    </LinearLayout>
+</LinearLayout>
