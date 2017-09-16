@@ -47,11 +47,11 @@ namespace Tarefando.Data.Dao
 
         public List<Tarefa> BuscarTodasIncompletas()
         {
-            return Db.Table<Tarefa>().Where(x => x.Completa == false).OrderBy(x => x.DataCriada).ToList();
+            return Db.Table<Tarefa>().Where(x => x.Completa == false).ToList();
         }
         public List<Tarefa> BuscarTodasCompletas()
         {
-            return Db.Table<Tarefa>().Where(x => x.Completa == true).OrderBy(x => x.DataCriada).ToList();
+            return Db.Table<Tarefa>().Where(x => x.Completa == true).ToList();
         }
         public void Update(Tarefa tarefa)
         {

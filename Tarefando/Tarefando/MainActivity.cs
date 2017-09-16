@@ -45,8 +45,10 @@ namespace Tarefando
 
             btnVoltar = FindViewById<Button>(Resource.Id.btnMenuVoltar);
 
+            btnVoltar.Visibility = ViewStates.Invisible;
+
             btnProximaTela.Click += BtnProximaTela_Click;
-            btnVoltar.Click += BtnVoltar_Click;
+            //btnVoltar.Click += BtnVoltar_Click;
             criarTarefa.Click += CriarTarefa_Click;
 
             _listView.ItemClick += _listView_ItemClick;
